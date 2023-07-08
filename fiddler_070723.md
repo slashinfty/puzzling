@@ -5,11 +5,11 @@
 **Problem:**
 > Suppose I start with a strip of paper that’s 10 inches long and 1 inch wide. I twist it once and attach the two 1-inch edges together, forming a Möbius strip. Finally, I draw a dot somewhere in the center of the strip—that is, the dot is half an inch away from both edges. Naturally, the distance between any two points on my strip is the shortest path between them, as the ant crawls. By that, I mean that such paths can go over an edge to the other “side” of the strip (“side” in quotes because it’s all really the same side, after all), just as an ant would crawl around the edge of the paper. There is a point (or points) on the strip that is the farthest distance from my dot. What is this distance?
 
-**Solution:** $\dfrac{\sqrt{401}}{2}$ inches
+**Solution:** $\dfrac{\sqrt{101}}{2}$ inches
 
-**Rationale:** The longest straight line distance on a Möbius strip is equal to the length of the strip. Any path that would continue beyond that length would be closer to the origin from the other direction. Attempting to create a longer path by crossing an edge has a similar effect.
+**Rationale:** The longest straight line distance on a Möbius strip is equal to half the length of the strip. Any path that would continue beyond that length would be closer to the origin from the other direction. Attempting to create a longer path by crossing an edge has a similar effect.
 
-Consider a line segment from edge to edge that is perpendicular to a line drawn down the center of the strip and 10 inches away from the origin (the furthest straight line distance). The endpoints of the segment, which are the points on the edges of the strip, are the further from the intersection, and the two points furthest from the origin. Finding the distance from the origin to these two points can be done using the Pythagorean theorem: $10^2+\frac{1}{2}^2=c^2$.
+Consider a line segment from edge to edge that is perpendicular to a line drawn down the center of the strip and 5 inches away from the origin (the furthest straight line distance). The endpoints of the segment, which are the points on the edges of the strip, are the further from the intersection, and the two points furthest from the origin. Finding the distance from the origin to these two points can be done using the Pythagorean theorem: $5^2+\frac{1}{2}^2=c^2$.
 
 ***
 
